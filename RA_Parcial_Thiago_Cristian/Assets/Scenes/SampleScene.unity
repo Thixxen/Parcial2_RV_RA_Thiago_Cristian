@@ -430,9 +430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Caja
-
-'
+  m_text: Latas
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -900,7 +898,7 @@ MonoBehaviour:
   raycastManager: {fileID: 1552293082}
   planeManager: {fileID: 1552293081}
   punteroVisualPrefab: {fileID: 5908820867132842326, guid: cbd906a7290231b4ea50d261958f743f, type: 3}
-  prefabCaja: {fileID: 3934286818734511775, guid: 41d1b1ae46b42b342bd4ecae66780ff1, type: 3}
+  prefabCaja: {fileID: 1700171439170184, guid: d1d8476b90274424b9420ef3c0257d94, type: 3}
   canonDisparo: {fileID: 0}
 --- !u!4 &425300451
 Transform:
@@ -1601,16 +1599,28 @@ PrefabInstance:
       value: cannonLowPoly
       objectReference: {fileID: 0}
     - target: {fileID: 697664909107443411, guid: d07d8ab0a55ca254da4c0eb122403156, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 37.149067
+      objectReference: {fileID: 0}
+    - target: {fileID: 697664909107443411, guid: d07d8ab0a55ca254da4c0eb122403156, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 35.996532
+      objectReference: {fileID: 0}
+    - target: {fileID: 697664909107443411, guid: d07d8ab0a55ca254da4c0eb122403156, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 34.64915
+      objectReference: {fileID: 0}
+    - target: {fileID: 697664909107443411, guid: d07d8ab0a55ca254da4c0eb122403156, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00967
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 697664909107443411, guid: d07d8ab0a55ca254da4c0eb122403156, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.84
+      value: -0.949
       objectReference: {fileID: 0}
     - target: {fileID: 697664909107443411, guid: d07d8ab0a55ca254da4c0eb122403156, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.23
+      value: 1.128
       objectReference: {fileID: 0}
     - target: {fileID: 697664909107443411, guid: d07d8ab0a55ca254da4c0eb122403156, type: 3}
       propertyPath: m_LocalRotation.w
