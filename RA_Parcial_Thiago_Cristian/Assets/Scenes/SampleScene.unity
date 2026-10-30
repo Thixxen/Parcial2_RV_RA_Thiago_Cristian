@@ -574,7 +574,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Pelota
+  m_text: 'Modo Disparar
 
 '
   m_isRightToLeft: 0
@@ -680,7 +680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanonDisparo
   puntoDisparo: {fileID: 273181992}
   prefabProyectil: {fileID: 8142493934379696884, guid: 4e14fe669ee82e145a2af35df5dbb01a, type: 3}
-  fuerzaDisparo: 100
+  velocidadDisparo: 25
 --- !u!1 &405879981
 GameObject:
   m_ObjectHideFlags: 0
