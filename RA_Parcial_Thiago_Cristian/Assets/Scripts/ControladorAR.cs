@@ -196,7 +196,7 @@ public class ControladorAR : MonoBehaviour
             raycastManager.Raycast(
                 centro,
                 hits,
-                TrackableType.Planes))
+                TrackableType.PlaneWithinPolygon))
         {
             posePuntero = hits[0].pose;
             poseValida = true;
@@ -249,7 +249,7 @@ public class ControladorAR : MonoBehaviour
         {
             Instantiate(
                 prefabCaja,
-                posePuntero.position + Vector3.up * 0.1f,
+                posePuntero.position,
                 posePuntero.rotation
             );
 
@@ -264,10 +264,10 @@ public class ControladorAR : MonoBehaviour
             raycastManager.Raycast(
                 pos,
                 hits,
-                TrackableType.Planes))
+                TrackableType.PlaneWithinPolygon))
         {
             Vector3 nuevaPos = hits[0].pose.position;
-            nuevaPos.y += 0.1f;
+            
 
             objetoAgarrado.transform.position = nuevaPos;
 

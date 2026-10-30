@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1169245739724689841}
   - component: {fileID: 5409915524963396722}
   - component: {fileID: 1567310363821973288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AR Default Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50bbda3fc32aefd4e9fd588ba7a01489, type: 2}
+  - {fileID: 2100000, guid: ed8cfab6fd84ddd4a88cdbdd9aee7e61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
