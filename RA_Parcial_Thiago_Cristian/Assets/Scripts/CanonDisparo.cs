@@ -1,13 +1,12 @@
-
 using UnityEngine;
 
 public class CanonDisparo : MonoBehaviour
 {
     public Transform puntoDisparo;
     public GameObject prefabProyectil;
-    public float velocidadDisparo = 40f;
 
-    public void Disparar()
+    // Ahora recibe la fuerza como parámetro desde el ControladorAR
+    public void Disparar(float fuerzaAplicada)
     {
         if (puntoDisparo == null || prefabProyectil == null)
         {
@@ -37,9 +36,9 @@ public class CanonDisparo : MonoBehaviour
 
         Vector3 direccion = puntoDisparo.up.normalized;
 
-        rb.linearVelocity = direccion * velocidadDisparo;
+        // Multiplicamos la dirección por la fuerza cargada
+        rb.linearVelocity = direccion * fuerzaAplicada;
 
-        Debug.Log("Rigidbody encontrado: " + rb.name);
-        Debug.Log("Velocidad aplicada: " + rb.linearVelocity);
+        Debug.Log("Disparo realizado con fuerza: " + fuerzaAplicada);
     }
 }
